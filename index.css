@@ -161,3 +161,87 @@ footer p {
     /* border:1px solid red; */
     margin-top:100px;
 }
+
+@media (max-width:480px) {
+    .dice {
+        width:150px;
+        height:150px;
+    }
+
+    .dot {
+        width:30px;
+        height:30px;
+    }
+
+    #dice2 #d1 {
+        top:15px;
+        left:20px;
+        display:visible;
+    }
+    #dice2 #d2 {
+        top:64px;
+        left:20px;
+        display:visible;
+    }
+    #dice2 #d3 {
+        top:110px;
+        left:20px;
+        display:visible;
+    }
+    #dice2 #d4 {
+        top:15px;
+        right:20px;
+        display:visible;
+    }
+    #dice2 #d5 {
+        top:64px;
+        right:20px;
+        display:visible;
+    }
+    #dice2 #d6 {
+        top:110px;
+        right:20px;
+        display:visible;
+    }
+    #dice2 #d7 {
+        top:64px;
+        left:64px;
+        display:none;
+    }
+    
+    #dice1 #d1 {
+        top:15px;
+        left:20px;
+        display:visible;
+    }
+    #dice1 #d2 {
+        top:64px;
+        left:20px;
+        display:visible;
+    }
+    #dice1 #d3 {
+        top:110px;
+        left:20px;
+        display:visible;
+    }
+    #dice1 #d4 {
+        top:15px;
+        right:20px;
+        display:visible;
+    }
+    #dice1 #d5 {
+        top:64px;
+        right:20px;
+        display:visible;
+    }
+    #dice1 #d6 {
+        top:110px;
+        right:20px;
+        display:visible;
+    }
+    #dice1 #d7 {
+        top:64px;
+        left:64px;
+        display:none;
+    }
+}
