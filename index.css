@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(59, 53, 70);
+}
+
+* {
+    font-family:cursive;
+}
+
+h1 {
+    text-align:center;
+    color:rgb(110, 219, 124);
+    font-size:50px;
+    display:none;
+    /* border:1px solid red; */
+    margin-bottom:0px;
+}
+
+#main-container {
+    /* border:1px solid red; */
+    width:50%;
+    min-width:400px;
+    height:400px;
+    margin:auto;
+    margin-top:0px;
+    display:flex;
+}
+
+.card {
+    /* border:1px solid blue; */
+    height:390px;
+    width:45%;
+    margin:auto;
+}
+
+.card p {
+    color:rgb(110, 219, 124);
+    text-align:center;
+    font-size:25px;
+    position:relative;
+    top:0px;
+}
+
+.dice {
+    width:200px;
+    height:200px;
+    background-color: rgb(197, 26, 26);
+    border-radius: 20px;
+    margin:auto;
+    margin-top:80px;
+    position:relative;
+}
+
+.dot {
+    width:40px;
+    height:40px;
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+}
+
+/* dot placement */
+#dice2 #d1 {
+    top:20px;
+    left:20px;
+    display:visible;
+}
+#dice2 #d2 {
+    top:80px;
+    left:20px;
+    display:visible;
+}
+#dice2 #d3 {
+    top:140px;
+    left:20px;
+    display:visible;
+}
+#dice2 #d4 {
+    top:20px;
+    right:20px;
+    display:visible;
+}
+#dice2 #d5 {
+    top:80px;
+    right:20px;
+    display:visible;
+}
+#dice2 #d6 {
+    top:140px;
+    right:20px;
+    display:visible;
+}
+#dice2 #d7 {
+    top:80px;
+    left:80px;
+    display:none;
+}
+
+#dice1 #d1 {
+    top:20px;
+    left:20px;
+    display:visible;
+}
+#dice1 #d2 {
+    top:80px;
+    left:20px;
+    display:visible;
+}
+#dice1 #d3 {
+    top:140px;
+    left:20px;
+    display:visible;
+}
+#dice1 #d4 {
+    top:20px;
+    right:20px;
+    display:visible;
+}
+#dice1 #d5 {
+    top:80px;
+    right:20px;
+    display:visible;
+}
+#dice1 #d6 {
+    top:140px;
+    right:20px;
+    display:visible;
+}
+#dice1 #d7 {
+    top:80px;
+    left:80px;
+    display:none;
+}
+
+
+
+
+
+button {
+    width:300px;
+    height:80px;
+    font-size:50px;
+    display:block;
+    margin:40px auto;
+    background-color: rgb(59, 53, 70);
+    border:3px solid rgb(110, 219, 124);
+    color:rgb(110, 219, 124);
+    border-radius: 15px;
+}
+button:hover {
+    cursor:pointer;
+    border:3px solid rgb(0, 255, 34);
+    color:rgb(0, 255, 34);
+}
+
+
+
+
+footer p {
+    color:rgb(110, 219, 124);
+    text-align:center;
+    /* border:1px solid red; */
+    margin-top:100px;
+}
